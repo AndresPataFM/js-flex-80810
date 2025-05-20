@@ -1,0 +1,20 @@
+h1{
+  color: darkgoldenrod;
+  text-align: center;
+}
+
+#texto{
+  background-color: cadetblue;
+}
+
+#texto{
+  background-color: beige;
+}
+
+p{
+  background-color: aqua;
+}
+
+.rojo{
+  color: darkred;
+}
