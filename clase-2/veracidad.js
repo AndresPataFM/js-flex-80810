@@ -136,7 +136,8 @@ a === b ➡️ a estrictamente igual que b
 1 === "uno" ➡️ false
 
 🔹 Estrictamente distinto !==
-Igual al anterior pero invierte su veracidad, cuando ants era true, ahora es false y viceversa
+Igual al anterior pero invierte su veracidad, cuando ants era true, ahora es false y viceversa.
+a!==b es lo mismo que hacer !(a===b)
 
 a !== b ➡️ a es estrictamente distinto de b
 

@@ -6,9 +6,10 @@
 La forma más sencilla de tomar decisiones
 
 if(condición){
-    ~código a ejecutar
-    ~varías líneas de código
+    ~código a ejecutar;
+    ~varías líneas de código;
 }
+if(condición){aca va todo; linea1; linea2;};
 
 si el condición es verdadero, se ejecuta el código interno, de lo contrario, no
 */

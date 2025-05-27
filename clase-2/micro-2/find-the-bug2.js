@@ -7,15 +7,19 @@ for (let index = 0; index < cantidad; index) {
   console.log(texto);
 } 
 */
-
-/* let cantidad = prompt('INGRESE CANTIDAD DE REPETICIONES') ?? 0;
-let cantidadNumero = Number(cantidad)
+/* let cantidad = prompt('INGRESE CANTIDAD DE REPETICIONES');
 let texto = prompt('INGRESE TEXTO A REPETIR');
 
-for (let index = 0; index < cantidadNumero; index++) {
+for (let index = 1; index <= cantidad; index++) {
   console.log(texto);
-}; */
+}  */
+// for (let index = 1; index - 1 < cantidad; index++) {
+//   console.log(texto);
+// } 
 
+// for (let index = 0; index < cantidad; index++) {
+//   console.log(texto);
+// } 
 
 
 
@@ -36,12 +40,14 @@ for (let index = 0; index < lados; index++) {
 */
 
 let lados = prompt('INGRESE CANTIDAD DE LADOS');
-for (let index = 0; index < lados; index++) {
-  if (index === 3) {
-    alert("Ya no podes ser un triángulo")
+let contador = 0
+for (let index = 1; index <= lados; index++) {
+  if (index < 2) {
+    alert("Con esta cantidad de lados, no sos un polígono")
   }
-  alert("lado");
-}
+  alert(`lado #${++contador}`);
+} 
+
 // ¿Qué tiene que hacer este código?
 // ¿Por qué no cumple con su función?
 // ¿Qué propuesta podrías hacer para que tenga sentido su uso?
