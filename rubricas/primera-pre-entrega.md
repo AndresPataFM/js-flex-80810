@@ -33,7 +33,7 @@ HTML5. _Mientras no usen etiquetas sin cerrar o pongan elementos fuera del body 
 _Se utiliza algoritmo condicional, array y con ciclo (IF, bucles for) de manera óptima , reflejando lo aprendido en clase._
 * Se utiliza mínimamente 1 algoritmo condicional (if/if else/else if/switch) de manera óptima, reflejando lo aprendido en clase. _No usar if(true), si se puede if(variable) y que la variable===true debido a algoritmos previos._
 * Se utiliza mínimamente 1 ciclo (for/while/do while/for of) de manera óptima, reflejando lo aprendido en clase. _Idem, while(true) esta penalizado. Similarmente, que la única salida que tenga un ciclo sea un break es mala práctica y no abusar del continue. Ciclos infinitos estan MUY mal._
-* Se evalúa el uso de input/output del usuario (ver consignas arriba). _Usen las herramientas mencionadas como correctas, alert yconsole.log para salida y prompt/confirm para entrada. No usen DOM._
+* Se evalúa el uso de input/output del usuario (ver consignas arriba). _Usen las herramientas mencionadas como correctas, alert y console.log para salida y prompt/confirm para entrada. No usen DOM._
 * Se utiliza 1 array de manera adecuada con buenas prácticas. _Que el tipo de dato dentro del array sea consistente y de ser aplicable, como en objetos, con la misma estructura._
 * Se aplican buenas prácticas con variables. _No usan var, aplican const donde sea posible, buena nomenclatura, etc._
 

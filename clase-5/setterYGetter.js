@@ -79,12 +79,12 @@ console.log(juan)
 // console.log(juan.#firstName)
 console.log(juan.firstName)
 console.log(juan.fullName)
-console.log(juan.interaction)
+// console.log(juan.interaction)
 
-juan.setFirstName = ""
-juan.setFirstName = "Ramiro"
+// juan.setFirstName = ""
+// juan.setFirstName = "Ramiro"
 
-console.log(juan.firstName)
+// console.log(juan.firstName)
 
 
 /* 

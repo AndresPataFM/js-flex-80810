@@ -8,6 +8,8 @@ const objeto1 = {
         console.log("lógica")
     },
 };
+
+
 // 🔶 Propiedades 🔶
 // Son "variables internas" del objeto, estas puedes ser cualquiera de los tipos de datos vistos, arrays y/u objetos.
 // 🔶 Métodos 🔶
