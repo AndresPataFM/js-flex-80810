@@ -7,3 +7,4 @@ En este repositorio van a encontrar varios archivos y código con comentario en 
 * Eloquent JS: [Eloquent JS](https://eloquentjavascript.net/)
 * Conjunto de libros gratuitos de Javascript: [jsbooks](https://jsbooks.revolunet.com/)
 * Patrones de diseño: [Refactoring Guru](https://refactoring.guru/es/design-patterns/what-is-pattern)
+* Estructuras de datos en Javascript (Inglés): [computer-science-in-javascript](https://github.com/humanwhocodes/computer-science-in-javascript)
