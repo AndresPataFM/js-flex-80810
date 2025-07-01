@@ -56,22 +56,20 @@ test.forEach((elemento)=>{
 // 🔹 RETORNA ELEMENTO
 // 🔹 La función parámetro debe retornar booleano
 
-/* 
-console.log(array.find((elemento)=>{
+
+/* console.log(array.find((elemento)=>{
     let comparacion = elemento === 3
     return comparacion
 }))
 console.log("find", array.find((elemento)=>{
     return elemento === 3
-})) 
-    */
+}))  */
 
-/* 
-console.log(array.find((elemento)=>{
+/* console.log(array.find((elemento)=>{
     let operaciónLógica = booleano
     return operaciónLógica
-})) 
-*/
+}))  */
+
 
 // 🔶 ✅❓ filter() 💖📫 🔶
 // "Filtrar"

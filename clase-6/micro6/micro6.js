@@ -4,7 +4,11 @@ const numeros = [3, 9, 5, 2, 8, 7];
 const tieneNumeroPar = numeros.find((num) => num % 2 === 0);
 ¿Esto es Verdadero o Falso?
 */
+const numeros = [3, 9, 5, 1, 3, 7];
+// const tieneNumeroPar = numeros.find((num) => num % 2 === 0);
+const tieneNumeroPar = numeros.some((num) => num % 2 === 0);
 
+console.log("hay algún número par?", tieneNumeroPar)
 
 
 
@@ -14,7 +18,10 @@ Ejercicio 2: Usa el método `filter` para obtener todos los nombres que tienen m
 const nombres = ['Ana', 'Juan', 'María', 'Luisa', 'Pedro', 'Pablo'];
 const nombresLargos = nombres.filter((name) => name.length > 5);
 */
+const nombres = ['Ana', 'Juan', 'María', 'Luisa', 'Pedro', 'Pablo', "Andrés"];
+const nombresLargos = nombres.filter((name) => name.length > 5);
 
+console.log(nombresLargos)
 
 
 /* 
@@ -25,3 +32,8 @@ const celsiusTemps = fahrenheitTemps.map((fahrenheit) => ((fahrenheit - 32) * 5)
 ¿Las temperaturas convertidas a grados Celsius son diferentes de las originales en grados Fahrenheit?
 
 */
+
+const fahrenheitTemps = [32, 68, 86, 104, 212];
+const celsiusTemps = fahrenheitTemps.map((fahrenheit) => ((fahrenheit - 32) * 5) / 9);
+
+console.log(celsiusTemps)
